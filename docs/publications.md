@@ -14,7 +14,7 @@ import feedparser
 
 rss_urls = [
   "https://orbit.dtu.dk/en/persons/andrea-burattin/publications/?format=rss",
-  # "https://orbit.dtu.dk/en/persons/ekkart-kindler/publications/?format=rss",
+  "https://orbit.dtu.dk/en/persons/ekkart-kindler/publications/?format=rss",
   "https://orbit.dtu.dk/en/persons/hugo-andres-lopez-acosta/publications/?format=rss",
   "https://orbit.dtu.dk/en/persons/giovanni-meroni/publications/?format=rss",
   "https://orbit.dtu.dk/en/persons/andrey-rivkin/publications/?format=rss"
