@@ -11,13 +11,16 @@ nav:
 theme:
   name: material
   palette:
-    primary: teal
+    primary: custom
   features:
     - navigation.tabs
     - toc.integrate
     - navigation.footer
   icon:
     logo: material/home
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - include-markdown
