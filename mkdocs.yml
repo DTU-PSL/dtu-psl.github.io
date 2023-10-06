@@ -1,11 +1,12 @@
 site_name: DTU - Process Science Lab
-site_url: https://sma4pm.github.io
+site_url: https://dtu-psl.github.io
 
 nav:
   - Home: index.md
   - Members: members.md
-  - Events: events.md
   - Publications: publications.md
+  - Software: software.md
+  - Events: events.md
   - Teaching: teaching.md
 
 theme:
@@ -15,7 +16,7 @@ theme:
   features:
     - navigation.tabs
     - toc.integrate
-    - navigation.footer
+    
   icon:
     logo: material/home
 
@@ -27,7 +28,9 @@ plugins:
   - markdown-exec
 
 markdown_extensions:
-  - pymdownx.tilde
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.tilde
   - pymdownx.details
   - pymdownx.superfences

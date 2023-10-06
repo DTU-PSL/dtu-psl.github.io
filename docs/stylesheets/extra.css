@@ -3,3 +3,24 @@
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark: #90030C;
 }
+
+
+.grid {
+    grid-gap: 0.4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    margin: 1em 0;
+}
+
+.grid.cards>ol, .grid.cards>ul {
+    display: contents;
+}
+
+.grid.cards>ol>li, .grid.cards>ul>li, .grid>.card {
+    border: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-radius: 0.1rem;
+    display: block;
+    margin: 0;
+    padding: 0.8rem;
+    transition: border .25s,box-shadow .25s;
+}
